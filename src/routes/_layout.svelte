@@ -1,22 +1,14 @@
 <script>
 	import Nav from '../components/Nav.svelte';
-
-	export let segment;
+	import Footer from '../components/Footer.svelte';
 </script>
 
-<style>
-	main {
-		position: relative;
-		max-width: 56em;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-</style>
+<Nav />
 
-<Nav {segment}/>
-
-<main>
+<main class="container my-8 mx-auto h-screen">
 	<slot></slot>
 </main>
+
+<footer class="border-t border-primary-dark text-center sm:text-sm text-xs p-4">
+	<Footer />
+</footer>

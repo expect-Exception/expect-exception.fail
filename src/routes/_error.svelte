@@ -1,39 +1,35 @@
 <script>
+	import NotFound from '../assets/not_found.svelte';
+	import Spacer from '../components/spacer.svelte';
+
 	export let status;
+	export let notFound = status === 404;
 	export let error;
 
 	const dev = process.env.NODE_ENV === 'development';
 </script>
 
-<style>
-	h1, p {
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
-</style>
-
 <svelte:head>
 	<title>{status}</title>
 </svelte:head>
 
-<h1>{status}</h1>
+{#if notFound}
+	<figure class="max-w-full px-4">
+		<NotFound  />
+	</figure>
+	
+	<Spacer />
+	<Spacer />
+	<Spacer />
 
-<p>{error.message}</p>
+	<div class="text-center text-xl">
+		<strong><a href="/" class="text-primary hover:text-primary-dark hover:cursor-pointer">Go Home</a></strong>
+	</div>
+{:else}
+	<h1>{status}</h1>
+
+	<p>{error.message}</p>
+{/if}
 
 {#if dev && error.stack}
 	<pre>{error.stack}</pre>
