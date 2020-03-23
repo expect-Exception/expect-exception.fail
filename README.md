@@ -39,3 +39,11 @@ This application is deployed on [Now](https://zeit.co/now). To use it, run:
 npm install -g now
 now
 ```
+
+## Test
+
+This project contains [Cypress](https://www.cypress.io/) tests. To prevent bloating up the node modules, cypress is not a dev dependency. Install it globally with `npm install -g cypress`. To run the tests, execute
+
+```bash
+npm run test
+```
