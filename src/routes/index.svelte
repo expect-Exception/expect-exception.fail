@@ -8,7 +8,7 @@
 </svelte:head>
 
 <section class="container mx-auto px-2 text-center">
-	<h1>expect(Exception)$</h1>
+	<h1 class="sm:text-4xl text-2xl">expect(Exception)$</h1>
 
 	<Spacer />
 
