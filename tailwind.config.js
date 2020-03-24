@@ -1,0 +1,18 @@
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        "primary-dark": "#303F9F",
+        "accent": "#8BC34A",
+        "primary-light": "#C5CAE9",
+        "primary-text": "#212121",
+        "primary": "#3F51B5",
+        "accent-text": "#757575",
+        "text": "#FFFFFF",
+        "divider": "#BDBDBD",
+      }
+    }
+  },
+  variants: {},
+  plugins: []
+}
