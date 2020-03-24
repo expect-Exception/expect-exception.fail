@@ -1,5 +1,5 @@
 <script>
-  import Spacer from '../components/spacer.svelte';
+  import Spacer from '../components/Spacer.svelte';
 
   export let footerLinkClasses = "text-primary hover:text-primary-dark hover:cursor-pointer";
 </script>
