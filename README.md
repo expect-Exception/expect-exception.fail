@@ -33,7 +33,9 @@ Run the project in production mode with:
 npm run build && npm start
 ```
 
-This application is deployed on [Now](https://zeit.co/now). To use it, run:
+This application is deployed on [Now](https://zeit.co/now). The project will automatically be redeployed by pushing on the master branch. If you need access to the Now Team, contact [Vannsl](mailto:boehner.vanessa@gmail.com).
+
+To change settings, run:
 
 ```bash
 npm install -g now
