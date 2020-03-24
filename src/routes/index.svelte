@@ -1,6 +1,6 @@
 <script>
 	import UnderConstruction from '../assets/under_construction.svelte';
-	import Spacer from '../components/spacer.svelte';
+	import Spacer from '../components/Spacer.svelte';
 </script>
 
 <svelte:head>

@@ -1,6 +1,6 @@
 <script>
 	import NotFound from '../assets/not_found.svelte';
-	import Spacer from '../components/spacer.svelte';
+	import Spacer from '../components/Spacer.svelte';
 
 	export let status;
 	export let notFound = status === 404;
