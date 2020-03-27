@@ -1,5 +1,5 @@
 <script>
-	import NotFound from '../assets/not_found.svelte';
+	import NotFound from '../assets/svg/not_found.svelte';
 	import Spacer from '../components/Spacer.svelte';
 
 	export let status;
