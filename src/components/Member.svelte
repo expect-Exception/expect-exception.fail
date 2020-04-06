@@ -23,7 +23,7 @@
         {/each}
       </div>
     {/if}
-    {#if Object.keys(website).length}
+    {#if website.link && website.label}
       <a href={website.link} class="text-xs" target="_blank" rel="nofollow noreferrer noopener">
         {website.label}
       </a>
