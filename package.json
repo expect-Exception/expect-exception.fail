@@ -38,7 +38,7 @@
     "@rollup/plugin-replace": "2.3.1",
     "@testing-library/jest-dom": "5.3.0",
     "@testing-library/svelte": "3.0.0",
-    "autoprefixer": "9.7.5",
+    "autoprefixer": "9.7.6",
     "babel-jest": "25.2.4",
     "jest": "25.2.4",
     "jest-transform-svelte": "2.1.1",
