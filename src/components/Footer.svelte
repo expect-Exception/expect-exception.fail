@@ -1,7 +1,7 @@
 <script>
   import Spacer from '../components/Spacer.svelte';
 
-  export let footerLinkClasses = "text-primary hover:text-primary-dark hover:cursor-pointer";
+  const footerLinkClasses = "hover:underline hover:cursor-pointer";
 </script>
 
 &copy; 2020 expect(Exception)<br>

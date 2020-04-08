@@ -1,0 +1,46 @@
+[
+  {
+    "imageSrc": "vannsl.jpg",
+    "name": "Vanessa Böhner",
+    "bio": "Vanessa Böhner is a Frontend Developer who has a lot of questions about Frontend Testing.",
+    "socials": [
+      {
+        "key": "twitter",
+        "link": "https://twitter.com/vannsl"
+      },
+      {
+        "key": "github",
+        "link": "https://github.com/vannsl"
+      }
+    ],
+    "website": {
+      "label": "vannsl.io",
+      "link": "https://vannsl.io"
+    }
+  },
+  {
+    "imageSrc": "podcast.svg",
+    "name": "Amazing Person",
+    "bio": "expect(Exception) Producer. Does something. Is great in something."
+  },
+  {
+    "imageSrc": "podcast.svg",
+    "name": "Amazing Person",
+    "bio": "expect(Exception) Producer. Does something. Is great in something."
+  },
+  {
+    "imageSrc": "podcast.svg",
+    "name": "Amazing Person",
+    "bio": "expect(Exception) Producer. Does something. Is great in something."
+  },
+  {
+    "imageSrc": "podcast.svg",
+    "name": "Amazing Person",
+    "bio": "expect(Exception) Producer. Does something. Is great in something."
+  },
+  {
+    "imageSrc": "podcast.svg",
+    "name": "Amazing Person",
+    "bio": "expect(Exception) Producer. Does something. Is great in something."
+  }
+]
