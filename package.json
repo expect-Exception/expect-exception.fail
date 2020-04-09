@@ -21,7 +21,7 @@
     "test:coverage": "jest --coverage"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "2.1.0",
+    "@fullhuman/postcss-purgecss": "2.1.2",
     "compression": "1.7.4",
     "polka": "next",
     "sirv": "0.4.2"
