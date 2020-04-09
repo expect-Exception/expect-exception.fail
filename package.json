@@ -36,7 +36,7 @@
     "@rollup/plugin-json": "4.0.2",
     "@rollup/plugin-node-resolve": "7.1.1",
     "@rollup/plugin-replace": "2.3.1",
-    "@testing-library/jest-dom": "5.3.0",
+    "@testing-library/jest-dom": "5.4.0",
     "@testing-library/svelte": "3.0.0",
     "autoprefixer": "9.7.5",
     "babel-jest": "25.2.4",
