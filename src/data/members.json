@@ -19,6 +19,29 @@
     }
   },
   {
+    "imageSrc": "webdave.jpg",
+    "name": "David Müllerchen",
+    "bio": "David Muellerchen is an Angular consultant and trainer. David has a passion: sharing knowledge. He loves to speak and teach at meetups and conferences. He is Also an organizer of the Hamburg Angular Meetup, NG-DE and a GDE in Angular.",
+    "socials": [
+      {
+        "key": "twitter",
+        "link": "https://twitter.com/webdave_de"
+      },
+      {
+        "key": "github",
+        "link": "https://github.com/web-dave"
+      },
+      {
+        "key": "instagram",
+        "link": "https://www.instagram.com/webdave_de"
+      }
+    ],
+    "website": {
+      "label": "webdave.de",
+      "link": "https://webdave.de"
+    }
+  },
+  {
     "imageSrc": "podcast.svg",
     "name": "Amazing Person",
     "bio": "expect(Exception) Producer. Does something. Is great in something."
