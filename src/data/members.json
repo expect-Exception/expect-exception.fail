@@ -43,8 +43,26 @@
   },
   {
     "imageSrc": "podcast.svg",
-    "name": "Amazing Person",
-    "bio": "expect(Exception) Producer. Does something. Is great in something."
+    "name": "Markus Wolf",
+    "bio": "Markus Wolf is senior solution architect at XING. Since a few years he's deeply into frontend development, architectures and testing.",
+    "socials": [
+      {
+        "key": "twitter",
+        "link": "https://twitter.com/KnisterPeter"
+      },
+      {
+        "key": "github",
+        "link": "https://github.com/KnisterPeter/"
+      },
+      {
+        "key": "xing",
+        "link": "https://www.xing.com/profile/Markus_Wolf22/cv"
+      }
+    ],
+    "website": {
+      "label": "www",
+      "link": "https://about.me/knisterpeter"
+    }
   },
   {
     "imageSrc": "podcast.svg",
