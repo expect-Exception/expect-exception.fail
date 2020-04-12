@@ -65,9 +65,27 @@
     }
   },
   {
-    "imageSrc": "podcast.svg",
-    "name": "Amazing Person",
-    "bio": "expect(Exception) Producer. Does something. Is great in something."
+    "imageSrc": "nik.png",
+    "name": "Nikolaus Rademacher",
+    "bio": "As a child, Nik was interested in complex traffic infrastructures. Airports, radial highways and big interjections need to handle daily traffic, quickly guiding each person to their destination. Today, as a frontend web developer, he likes to build digital junctions.",
+    "socials": [
+      {
+        "key": "twitter",
+        "link": "https://twitter.com/wheelmaker24"
+      },
+      {
+        "key": "github",
+        "link": "https://github.com/wheelmaker24"
+      },
+      {
+        "key": "instagram",
+        "link": "https://www.instagram.com/wheelmaker24"
+      }
+    ],
+    "website": {
+      "label": "rademacher.digital",
+      "link": "https://rademacher.digital"
+    }
   },
   {
     "imageSrc": "podcast.svg",
