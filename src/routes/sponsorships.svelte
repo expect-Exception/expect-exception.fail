@@ -1,4 +1,5 @@
 <script>
+  import { fadeIn, fadeOut } from "../utils/page_fade";
 	import sponsorships from '../data/sponsorships.json';
 	import Spacer from '../components/Spacer.svelte';
 	import Sponsorship from '../components/Sponsorship.svelte';
@@ -10,7 +11,7 @@
 	<title>expect(Exception)</title>
 </svelte:head>
 
-<article class="container mx-auto px-2">
+<article in:fadeIn out:fadeOut class="container mx-auto px-2">
 	<Headline1 center>Our Sponsorhips</Headline1>
 
 	<Spacer />
