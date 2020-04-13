@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="465px" height="87px" viewBox="0 0 465 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>expect(Exception)</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g id="logo-2">
+                <g id="logo">
+                    <path d="M34.0437573,0.549242424 C35.2382751,-0.183080808 36.4327928,-0.183080808 37.6273106,0.549242424 L69.8792912,20.3219697 C71.073809,21.0542929 71.6710679,22.1527778 71.6710679,23.6174242 L71.6710679,63.1628788 C71.6710679,64.6275253 71.073809,65.7260101 69.8792912,66.4583333 L37.6273106,86.2310606 C36.4327928,86.9633838 35.2382751,86.9633838 34.0437573,86.2310606 L1.7917767,66.4583333 C0.597258899,65.7260101 0,64.6275253 0,63.1628788 L0,23.6174242 C0,22.1527778 0.597258899,21.0542929 1.7917767,20.3219697 L34.0437573,0.549242424 Z" id="Path" fill="#3F51B5" fill-rule="nonzero"></path>
+                    <path d="M49.0689655,25 L24.2413793,25 L24.2413793,58.553719 C24.6277424,60.1861636 25.7287101,61.4615271 27.137931,61.9090909 L49.0689655,61.9090909 M23,41.9166667 L43.6896552,41.9166667" id="Shape" stroke="#FFFFFF" stroke-width="6"></path>
+                </g>
+            </g>
+            <text id="expect(Exception)" fill="#3F51B5" font-family="EuphemiaUCAS, Euphemia UCAS" font-size="48" font-weight="normal">
+                <tspan x="82" y="58">expect(Exception)</tspan>
+            </text>
+            <text id="PODCAST" fill="#3F51B5" font-family="EuphemiaUCAS-Bold, Euphemia UCAS" font-size="20" font-weight="bold" letter-spacing="15">
+                <tspan x="146" y="81">PODCAST</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
