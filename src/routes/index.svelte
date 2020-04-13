@@ -1,6 +1,8 @@
 <script>
 	import UnderConstruction from '../assets/svg/under_construction.svelte';
 	import Spacer from '../components/Spacer.svelte';
+	import Headline1 from '../components/Headline1.svelte';
+	import Headline2 from '../components/Headline2.svelte';
 </script>
 
 <svelte:head>
@@ -8,7 +10,8 @@
 </svelte:head>
 
 <section class="text-center">
-	<h1 class="sm:text-4xl text-2xl">expect(Exception)</h1>
+	<Headline1>expect(Exception)</Headline1>
+	<Headline2>The Podcast about Frontend Testing.</Headline2>
 
 	<Spacer />
 	<Spacer />
