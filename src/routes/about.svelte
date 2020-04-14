@@ -1,15 +1,17 @@
 <script>
+  import { fadeIn, fadeOut } from "../utils/page_fade";
 	import members from '../data/members.json';
 	import Spacer from '../components/Spacer.svelte';
 	import Member from '../components/Member.svelte';
+	import Headline1 from '../components/Headline1.svelte';
 </script>
 
 <svelte:head>
 	<title>expect(Exception) About Us</title>
 </svelte:head>
 
-<article class="container mx-auto px-2 text-center">
-	<h1 class="sm:text-4xl text-2xl">About expect(Exception)</h1>
+<article in:fadeIn out:fadeOut class="container mx-auto px-2 text-center">
+	<Headline1>Your Hosts</Headline1>
 
 	<Spacer />
 	<Spacer />

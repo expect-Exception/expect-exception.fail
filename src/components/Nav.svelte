@@ -1,7 +1,8 @@
 <script>
 	export let segment;
 
-	const anchor = "sm:text-base text-sm smanchor relative inline-block pt-4 pb-2 px-2 text-primary-text hover:text-primary hover:cursor-pointer"
+	const item = "block text-center sm:float-left";
+	const anchor = "relative inline-block pt-4 pb-2 px-2 text-primary-text hover:text-primary hover:cursor-pointer";
 </script>
 
 <style lang="scss">
@@ -28,11 +29,27 @@
 		@extend .highlighted;
 		background-color: #3F51B5;
 	}
+
+	.logo {
+		max-width: 300px;
+	}
 </style>
 
-<nav class="px-1">
-	<ul class="m-0 p-0 clearfix">
-		<li class="block float-left">
+<nav class="m-2 mb-24 px-1 flex md:justify-between flex-wrap justify-center">
+	<div class="w-full md:w-auto mb-8 md:mb-0">
+		<div class="logo mx-auto">
+			<a href=".">
+				<picture>
+					<source 
+						media="(min-width: 768px)"
+						srcset="expect_exception_logo_long.svg">
+					<img src="expect_exception_logo.svg" alt="expect(Exception) Logo" class="max-w-full">
+				</picture>
+			</a>
+		</div>
+	</div>
+	<ul class="m-0 p-0 clearfix text-xl md:text-base">
+		<li class={item}>
 			<a
 			  class="{segment === undefined ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
 				href="."
@@ -40,7 +57,7 @@
 				Home
 			</a>
 		</li>
-		<li class="block float-left">
+		<li class={item}>
 			<a
 				class="{segment === 'about' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
 				href="/about"
@@ -48,7 +65,7 @@
 				Exceptional Crew
 			</a>
 		</li>
-		<li class="block float-left">
+		<li class={item}>
 			<a
 				class="{segment === 'sponsorships' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
 				href="/sponsorships"

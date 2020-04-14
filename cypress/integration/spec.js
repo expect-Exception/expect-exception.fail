@@ -12,6 +12,11 @@ describe('Landingpage', () => {
 		cy.url().should('include', '/about');
 	});
 
+	it('navigates to /', () => {
+		cy.get('nav a').contains('Home').click();
+		cy.url().should('include', '/');
+	});
+
 	it('navigates to /sponsorships', () => {
 		cy.get('nav a').contains('Sponsorships').click();
 		cy.url().should('include', '/sponsorships');
