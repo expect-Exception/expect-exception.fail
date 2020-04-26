@@ -14,9 +14,7 @@
 <article in:fadeIn out:fadeOut class="container mx-auto px-2">
 	<Headline1 center>Our Sponsorhips</Headline1>
 
-	<Spacer />
-	<Spacer />
-	<Spacer />
+	<Spacer size="md" />
 
 	<section>
 		<Headline2 center>Contact Us</Headline2>
@@ -26,8 +24,7 @@
 		</p>
 	</section>
 
-	<Spacer />
-	<Spacer />
+	<Spacer size="sm" />
 
 	<section>
 		<Headline2 center>Sponsorships</Headline2>
@@ -37,10 +34,7 @@
 		</p>
 
 
-		<Spacer />
-		<Spacer />
-		<Spacer />
-		<Spacer />
+		<Spacer size="lg" />
 	
 		{#each sponsorships as sponsorship}
 			<Sponsorship {sponsorship} />

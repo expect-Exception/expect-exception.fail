@@ -14,9 +14,7 @@
 	<Headline1>expect(Exception)</Headline1>
 	<Headline2>The Podcast about Frontend Testing.</Headline2>
 
-	<Spacer />
-	<Spacer />
-	<Spacer />
+	<Spacer size="md" />
 
 	<figure class="max-w-full">
 		<UnderConstruction />

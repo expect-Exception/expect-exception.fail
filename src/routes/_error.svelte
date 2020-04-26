@@ -18,9 +18,7 @@
 		<NotFound  />
 	</figure>
 	
-	<Spacer />
-	<Spacer />
-	<Spacer />
+	<Spacer size="md" />
 
 	<div class="text-center text-xl">
 		<strong><a href="/" class="text-primary hover:text-primary-dark hover:cursor-pointer">Go Home</a></strong>

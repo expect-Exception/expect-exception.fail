@@ -13,9 +13,7 @@
 <article in:fadeIn out:fadeOut class="container mx-auto px-2 text-center">
 	<Headline1>Your Hosts</Headline1>
 
-	<Spacer />
-	<Spacer />
-	<Spacer />
+	<Spacer size="md" />
 
 	<section class="flex flex-wrap justify-around">
 		{#each members as member}
