@@ -6,18 +6,16 @@
 	export let segment;
 </script>
 
-<Nav {segment}/>
+<div class="relative min-h-screen">
+	<Nav {segment}/>
 
-<main class="container my-8 mx-auto px-4 text-primary-text">
-	<slot></slot>
-</main>
+	<main class="container my-8 mx-auto px-4 text-primary-text">
+		<slot></slot>
+	</main>
 
-<Spacer />
-<Spacer />
-<Spacer />
-<Spacer />
-<Spacer />
+	<Spacer size="xl" />
 
-<footer class="bg-primary-dark text-text text-center sm:text-sm text-xs p-4">
-	<Footer />
-</footer>
+	<footer class="absolute bottom-0 w-full h-32 p-4 bg-primary-dark text-text text-center text-xs sm:text-sm">
+		<Footer />
+	</footer>
+</div>
