@@ -3,15 +3,17 @@
   const { imageSrc, name, bio, socials = [], website = {} } = member;
 </script>
 
-<div class="max-w-sm rounded overflow-hidden shadow-xl">
-  <div class="h-64 flex-none bg-center bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/members/{imageSrc}')"/>
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">
-      {name}
+<div class="flex flex-col justify-between max-w-sm rounded overflow-hidden shadow-xl">
+  <div>
+    <div class="h-64 bg-center bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/members/{imageSrc}')"/>
+    <div class="px-6 py-4">
+      <div class="font-bold text-xl mb-2">
+        {name}
+      </div>
+      <p class="text-gray-700 text-base">
+        {bio}
+      </p>
     </div>
-    <p class="text-gray-700 text-base">
-      {bio}
-    </p>
   </div>
   <div class="px-6 py-4 flex justify-between">
     {#if socials.length > 0}
