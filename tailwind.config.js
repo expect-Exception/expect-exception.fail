@@ -1,4 +1,8 @@
 module.exports = {
+  variants: {
+    scale: ['group-hover'],
+    opacity: ['group-hover']
+  },
   theme: {
     extend: {
       colors: {
@@ -13,6 +17,5 @@ module.exports = {
       }
     }
   },
-  variants: {},
   plugins: []
 }
