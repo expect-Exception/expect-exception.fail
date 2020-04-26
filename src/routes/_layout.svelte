@@ -6,10 +6,10 @@
 	export let segment;
 </script>
 
-<div class="relative min-h-screen">
+<div class="relative min-h-screen bg-gray-100">
 	<Nav {segment}/>
 
-	<Spacer size="md" mdSize="xs" />
+	<Spacer size="sm" mdSize="xs" />
 
 	<main class="container my-8 mx-auto px-4 text-primary-text">
 		<slot></slot>
