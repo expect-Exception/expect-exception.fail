@@ -1,5 +1,6 @@
 <script>
   export let size = "xs";
+  export let mdSize = "";
 
   const sizeMapper = {
     xs: 4,
@@ -9,7 +10,9 @@
     xl: 64
   };
 
-  const height = `h-${sizeMapper[size]}`;
+  const height = mdSize
+    ? `h-${sizeMapper[size]} sm:h-${sizeMapper[mdSize]}`
+    : `h-${sizeMapper[size]}`;
 </script>
 
 <div class="w-full {height}"/>

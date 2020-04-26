@@ -9,6 +9,8 @@
 <div class="relative min-h-screen">
 	<Nav {segment}/>
 
+	<Spacer size="md" mdSize="xs" />
+
 	<main class="container my-8 mx-auto px-4 text-primary-text">
 		<slot></slot>
 	</main>

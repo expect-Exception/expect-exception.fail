@@ -35,7 +35,7 @@
 	}
 </style>
 
-<nav class="p-2 flex md:justify-between flex-wrap justify-center">
+<nav class="p-2 flex flex-wrap justify-center md:justify-between">
 	<div class="w-full md:w-auto mb-8 md:mb-0">
 		<div class="logo mx-auto">
 			<a href=".">
