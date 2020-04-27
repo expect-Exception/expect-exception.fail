@@ -2,6 +2,6 @@
   export let center;
 </script>
 
-<h2 class="sm:text-xl text-lg" class:text-center="{center}">
+<h2 class="text-lg sm:text-xl" class:text-center="{center}">
   <slot />
 </h2>

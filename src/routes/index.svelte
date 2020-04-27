@@ -22,5 +22,5 @@
 
 	<Spacer />
 
-	<p class="sm:text-2xl text-xl"><strong>Under Construction</strong></p>
+	<p class="text-xl sm:text-2xl"><strong>Under Construction</strong></p>
 </article>
