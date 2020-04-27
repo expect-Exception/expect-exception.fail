@@ -51,7 +51,7 @@
 	<ul class="m-0 p-0 clearfix text-xl md:text-base">
 		<li class={item}>
 			<a
-			  class="{segment === undefined ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
+				class="{segment === undefined ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
 				href="."
 			>
 				Home
