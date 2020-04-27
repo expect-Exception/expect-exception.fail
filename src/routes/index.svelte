@@ -1,6 +1,5 @@
 <script>
   import { fadeIn, fadeOut } from "../utils/page_fade";
-	import UnderConstruction from '../assets/svg/under_construction.svelte';
 	import Spacer from '../components/Spacer.svelte';
 	import Headline1 from '../components/Headline1.svelte';
 	import Headline2 from '../components/Headline2.svelte';
@@ -16,11 +15,11 @@
 
 	<Spacer size="md" />
 
-	<figure class="max-w-full">
-		<UnderConstruction />
-	</figure>
+	<p>
+		expect(Exception) is about Frontend Testing. We are open to discuss every single detail of that opinionated topics.
+		Unit, Integratiom E2E, Snapshot, Visual Regressiong, Tools and Frameworks and so on.
+		There are two platforms: an open discussion forum for everyone and a podcast.
+		Every episode, some of <a href="/about">your hosts</a> talk about specific discussions of the open forum.
+	</p>
 
-	<Spacer />
-
-	<p class="text-xl sm:text-2xl"><strong>Under Construction</strong></p>
 </article>
