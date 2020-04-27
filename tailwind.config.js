@@ -1,7 +1,9 @@
+const _ = require('lodash');
+
 module.exports = {
   variants: {
-    scale: ['group-hover'],
-    opacity: ['group-hover']
+    scale: ['hover', 'group-hover'],
+    opacity: ['group-hover'],
   },
   theme: {
     extend: {
@@ -15,7 +17,28 @@ module.exports = {
         "text": "#FFFFFF",
         "divider": "#BDBDBD",
       }
-    }
+    },
+    gradients: theme => ({
+      "dark-to-primary": [
+        theme("colors.accent"),
+        theme("colors.primary-dark")
+      ]
+    })
   },
-  plugins: []
+  plugins: [
+    function({ addUtilities, e, theme }) {
+      const gradients = theme("gradients", {});
+
+      const utilities = _.map(
+        gradients,
+        ([start, end], name) => ({
+          [`.bg-gradient-${e(name)}`]: {
+            backgroundImage: `linear-gradient(to right bottom, ${start}, ${end})`
+          }
+        })
+      );
+
+      addUtilities(utilities);
+    }
+  ]
 }

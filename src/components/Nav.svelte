@@ -67,6 +67,14 @@
 		</li>
 		<li class={item}>
 			<a
+				class="{segment === 'episodes' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
+				href="/episodes"
+			>
+				Episodes
+			</a>
+		</li>
+		<li class={item}>
+			<a
 				class="{segment === 'sponsorships' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
 				href="/sponsorships"
 			>
