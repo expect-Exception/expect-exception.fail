@@ -40,7 +40,7 @@
     "@testing-library/svelte": "3.0.0",
     "autoprefixer": "9.7.6",
     "babel-jest": "25.4.0",
-    "cypress": "4.3.0",
+    "cypress": "4.5.0",
     "jest": "25.4.0",
     "jest-transform-svelte": "2.1.1",
     "node-sass": "4.14.0",
