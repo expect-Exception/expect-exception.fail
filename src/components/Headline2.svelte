@@ -1,5 +1,5 @@
 <script>
-  export let center;
+  export let center = false;
 </script>
 
 <h2 class="text-lg sm:text-xl" class:text-center="{center}">
