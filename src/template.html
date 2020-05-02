@@ -1,37 +1,46 @@
-<!doctype html>
-<html lang='en'>
-<head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
-	<meta name='theme-color' content='#333333'>
-	<meta name='description' content="🎧 The Frontend Testing Podcast expect(Exception). You can pronounce it without brackets. Monthly episodes. Produced by Mirjam Bäuerlein, Nikolaus Rademacher, Markus Wolf, Roman Kuba, David Müllerchen and Vanessa Böhner.">
-	<meta name='keywords' content="Testing,Frontend Testing,Podcast,HTML,CSS,JavaScript">
-	<meta name='author' content="Vanessa Böhner, Markus Wolf">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="theme-color" content="#333333" />
+    <meta
+      name="description"
+      content="🎧 The Frontend Testing Podcast expect(Exception). You can pronounce it without brackets. Monthly episodes. Produced by Mirjam Bäuerlein, Nikolaus Rademacher, Markus Wolf, Roman Kuba, David Müllerchen and Vanessa Böhner."
+    />
+    <meta
+      name="keywords"
+      content="Testing,Frontend Testing,Podcast,HTML,CSS,JavaScript"
+    />
+    <meta name="author" content="Vanessa Böhner, Markus Wolf" />
 
-	%sapper.base%
+    %sapper.base%
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel='stylesheet' href='main.css'>
-	<link rel='manifest' href='manifest.json'>
-	<link rel='icon' type='image/png' href='favicon.png'>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" type="image/png" href="favicon.png" />
 
-	<!-- Sapper generates a <style> tag containing critical CSS
+    <!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
 	     lazily loaded when it precaches secondary pages -->
-	%sapper.styles%
+    %sapper.styles%
 
-	<!-- This contains the contents of the <svelte:head> component, if
+    <!-- This contains the contents of the <svelte:head> component, if
 	     the current page has one -->
-	%sapper.head%
-</head>
-<body>
-	<!-- The application will be rendered inside this element,
+    %sapper.head%
+  </head>
+  <body class="border-t-8 border-primary-dark">
+    <!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
-	<div id='sapper'>%sapper.html%</div>
+    <div id="sapper">%sapper.html%</div>
 
-	<!-- Sapper creates a <script> tag containing `src/client.js`
+    <!-- Sapper creates a <script> tag containing `src/client.js`
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
-	%sapper.scripts%
-</body>
+    %sapper.scripts%
+  </body>
 </html>

@@ -1,77 +1,91 @@
 <script>
-	export let segment;
+  export let segment;
 
-	const item = "block text-center sm:float-left";
-	const anchor = "relative inline-block pt-4 pb-2 px-2 text-primary-text hover:text-primary hover:cursor-pointer";
+  const item = "block text-center sm:float-left";
+  const anchor =
+    "relative inline-block pt-4 pb-2 px-2 text-primary-text hover:text-primary hover:cursor-pointer";
 </script>
 
 <style lang="scss">
-	.highlighted {
-		position: absolute;
-		content: "";
-		width: calc(100% - 1em);
-		background-color: #000;
-		height: 3px;
-		display: block;
-		bottom: -1px;
-	}
+  .highlighted {
+    position: absolute;
+    content: "";
+    width: calc(100% - 1em);
+    background-color: #000;
+    height: 3px;
+    display: block;
+    bottom: -1px;
+  }
 
-	.selected::after {
-		@extend .highlighted;
-		background-color: #3F51B5;
-	}
-	
-	.anchor::after {
-		@extend .highlighted;
-	}
+  .selected::after {
+    @extend .highlighted;
+    background-color: #3f51b5;
+  }
 
-	.anchor:hover::after {
-		@extend .highlighted;
-		background-color: #3F51B5;
-	}
+  .anchor::after {
+    @extend .highlighted;
+  }
 
-	.logo {
-		max-width: 300px;
-	}
+  .anchor:hover::after {
+    @extend .highlighted;
+    background-color: #3f51b5;
+  }
+
+  .logo {
+    max-width: 300px;
+  }
 </style>
 
-<nav class="m-2 mb-24 px-1 flex md:justify-between flex-wrap justify-center">
-	<div class="w-full md:w-auto mb-8 md:mb-0">
-		<div class="logo mx-auto">
-			<a href=".">
-				<picture>
-					<source 
-						media="(min-width: 768px)"
-						srcset="expect_exception_logo_long.svg">
-					<img src="expect_exception_logo.svg" alt="expect(Exception) Logo" class="max-w-full">
-				</picture>
-			</a>
-		</div>
-	</div>
-	<ul class="m-0 p-0 clearfix text-xl md:text-base">
-		<li class={item}>
-			<a
-			  class="{segment === undefined ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
-				href="."
-			>
-				Home
-			</a>
-		</li>
-		<li class={item}>
-			<a
-				class="{segment === 'about' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
-				href="/about"
-			>
-				Exceptional Crew
-			</a>
-		</li>
-		<li class={item}>
-			<a
-				class="{segment === 'sponsorships' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
-				href="/sponsorships"
-			>
-			  Sponsorships
-			</a>
-		</li>
-	</ul>
+<nav class="p-4 flex flex-wrap justify-center md:justify-between bg-white">
+  <div class="w-full md:w-auto mb-8 md:mb-0">
+    <div class="logo mx-auto">
+      <a href=".">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="expect_exception_logo_long.svg"
+          />
+          <img
+            src="expect_exception_logo.svg"
+            alt="expect(Exception) Logo"
+            class="max-w-full"
+          />
+        </picture>
+      </a>
+    </div>
+  </div>
+  <ul class="m-0 p-0 clearfix text-xl md:text-base">
+    <li class="{item}">
+      <a
+        class="{segment === undefined ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
+        href="."
+      >
+        Home
+      </a>
+    </li>
+    <li class="{item}">
+      <a
+        class="{segment === 'about' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
+        href="/about"
+      >
+        Exceptional Crew
+      </a>
+    </li>
+    <li class="{item}">
+      <a
+        class="{segment === 'episodes' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
+        href="/episodes"
+      >
+        Episodes
+      </a>
+    </li>
+    <li class="{item}">
+      <a
+        class="{segment === 'sponsorships' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
+        href="/sponsorships"
+      >
+        Sponsorships
+      </a>
+    </li>
+  </ul>
 </nav>

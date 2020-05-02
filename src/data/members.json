@@ -89,17 +89,7 @@
   },
   {
     "imageSrc": "podcast.svg",
-    "name": "Amazing Person",
-    "bio": "expect(Exception) Producer. Does something. Is great in something."
-  },
-  {
-    "imageSrc": "podcast.svg",
-    "name": "Amazing Person",
-    "bio": "expect(Exception) Producer. Does something. Is great in something."
-  },
-  {
-    "imageSrc": "podcast.svg",
-    "name": "Amazing Person",
-    "bio": "expect(Exception) Producer. Does something. Is great in something."
+    "name": "Amazing Person: You?",
+    "bio": "Write us if you have an idea, want to be a guest speaker or get a member of the crew."
   }
 ]

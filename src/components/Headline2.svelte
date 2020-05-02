@@ -1,7 +1,7 @@
 <script>
-  export let center;
+  export let center = false;
 </script>
 
-<h2 class="sm:text-xl text-lg" class:text-center="{center}">
-  <slot />
+<h2 class="text-lg sm:text-xl" class:text-center="{center}">
+  <slot></slot>
 </h2>

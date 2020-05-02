@@ -1,10 +1,6 @@
-describe('Landingpage', () => {
+describe('Navigation', () => {
 	beforeEach(() => {
 		cy.visit('/')
-	});
-
-	it('has the correct <h1>', () => {
-		cy.contains('h1', 'expect(Exception)')
 	});
 
 	it('navigates to /about', () => {
@@ -12,13 +8,18 @@ describe('Landingpage', () => {
 		cy.url().should('include', '/about');
 	});
 
-	it('navigates to /', () => {
-		cy.get('nav a').contains('Home').click();
-		cy.url().should('include', '/');
+	it('navigates to /episodes', () => {
+		cy.get('nav a').contains('Episodes').click();
+		cy.url().should('include', '/episodes');
 	});
 
 	it('navigates to /sponsorships', () => {
 		cy.get('nav a').contains('Sponsorships').click();
 		cy.url().should('include', '/sponsorships');
+	});
+
+	it('navigates to /', () => {
+		cy.get('nav a').contains('Home').click();
+		cy.url().should('include', '/');
 	});
 });
