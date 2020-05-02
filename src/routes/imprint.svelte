@@ -100,7 +100,7 @@
   </section>
   <Spacer size="md"></Spacer>
   <section>
-    <Headline2>Illustration</Headline2>
+    <Headline2>Illustrationen</Headline2>
     <p>
       SVG Illustrationen stammen von
       <a
