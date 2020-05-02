@@ -7,7 +7,7 @@
     sm: 8,
     md: 16,
     lg: 32,
-    xl: 64
+    xl: 64,
   };
 
   const height = mdSize
@@ -15,4 +15,4 @@
     : `h-${sizeMapper[size]}`;
 </script>
 
-<div class="w-full {height}"/>
+<div class="w-full {height}"></div>

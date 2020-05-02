@@ -14,15 +14,18 @@
   <div class="pt-2 flex justify-between">
     <div>
       <p class="my-4">
-        <slot />
+        <slot></slot>
       </p>
       <a {href} {target} {rel} class="hover:underline">
-        <span class="fa fa-{type} inline-block mr-2" />{label}
+        <span class="fa fa-{type} inline-block mr-2"></span>{label}
       </a>
     </div>
     <div class="ml-8 flex flex-col justify-center">
-      <a {href} {target} {rel} aria-label={label}>
-        <i aria-hidden="true" class="fa fa-{icon} text-5xl transition transform hover:scale-125 ease-out duration-700" />
+      <a {href} {target} {rel} aria-label="{label}">
+        <i
+          aria-hidden="true"
+          class="fa fa-{icon} text-5xl transition transform hover:scale-125 ease-out duration-700"
+        ></i>
       </a>
     </div>
   </div>

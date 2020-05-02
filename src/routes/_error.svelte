@@ -1,34 +1,38 @@
 <script>
-	import NotFound from '../assets/svg/not_found.svelte';
-	import Spacer from '../components/Spacer.svelte';
+  import NotFound from "../assets/svg/not_found.svelte";
+  import Spacer from "../components/Spacer.svelte";
 
-	export let status;
-	export let notFound = status === 404;
-	export let error;
+  export let status;
+  export let notFound = status === 404;
+  export let error;
 
-	const dev = process.env.NODE_ENV === 'development';
+  const dev = process.env.NODE_ENV === "development";
 </script>
 
 <svelte:head>
-	<title>{status}</title>
+  <title>{status}</title>
 </svelte:head>
 
 {#if notFound}
-	<figure class="max-w-full px-4">
-		<NotFound  />
-	</figure>
-	
-	<Spacer size="md" />
+<figure class="max-w-full px-4">
+  <NotFound></NotFound>
+</figure>
 
-	<div class="text-center text-xl">
-		<strong><a href="/" class="text-primary hover:text-primary-dark hover:cursor-pointer">Go Home</a></strong>
-	</div>
+<Spacer size="md"></Spacer>
+
+<div class="text-center text-xl">
+  <strong
+    ><a
+      href="/"
+      class="text-primary hover:text-primary-dark hover:cursor-pointer"
+      >Go Home</a
+    ></strong
+  >
+</div>
 {:else}
-	<h1>{status}</h1>
+<h1>{status}</h1>
 
-	<p>{error.message}</p>
-{/if}
-
-{#if dev && error.stack}
-	<pre>{error.stack}</pre>
+<p>{error.message}</p>
+{/if} {#if dev && error.stack}
+<pre>{error.stack}</pre>
 {/if}
