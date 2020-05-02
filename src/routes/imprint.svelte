@@ -100,8 +100,15 @@
   </section>
   <Spacer size="md"></Spacer>
   <section>
-    <Headline2>Illustration</Headline2>
+    <Headline2>Illustrationen</Headline2>
     <p>
-      SVG Illustrationen stammen von <a href="https://undraw.co" rel="nofollow, noreferrer, noopener" target="_blank">unDraw.io</a>
+      SVG Illustrationen stammen von
+      <a
+        href="https://undraw.co"
+        rel="nofollow, noreferrer, noopener"
+        target="_blank"
+        >unDraw.io</a
+      >
     </p>
+  </section>
 </article>
