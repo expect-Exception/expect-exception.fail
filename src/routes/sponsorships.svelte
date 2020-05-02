@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-  <title>expect(Exception)</title>
+  <title>expect(Exception) Sponsorships</title>
 </svelte:head>
 
 <article in:fadeIn out:fadeOut class="container mx-auto px-2">
