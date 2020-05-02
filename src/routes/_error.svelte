@@ -1,5 +1,4 @@
 <script>
-  import NotFound from "../assets/svg/not_found.svelte";
   import Spacer from "../components/Spacer.svelte";
 
   export let status;
@@ -15,7 +14,7 @@
 
 {#if notFound}
 <figure class="max-w-full px-4">
-  <NotFound></NotFound>
+  <img src="not_found.svg" alt="Page not found" />
 </figure>
 
 <Spacer size="md"></Spacer>

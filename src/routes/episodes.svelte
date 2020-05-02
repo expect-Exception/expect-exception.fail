@@ -1,6 +1,5 @@
 <script>
   import { fadeIn, fadeOut } from "../utils/page_fade";
-  import UnderConstruction from "../assets/svg/under_construction.svelte";
   import Headline1 from "../components/Headline1.svelte";
   import Spacer from "../components/Spacer.svelte";
 </script>
@@ -10,7 +9,7 @@
   <Spacer size="md"></Spacer>
 
   <figure class="max-w-full">
-    <UnderConstruction></UnderConstruction>
+    <img src="under_construction.svg" alt="Page is under construction" />
   </figure>
 
   <Spacer></Spacer>
