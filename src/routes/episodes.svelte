@@ -4,6 +4,10 @@
   import Spacer from "../components/Spacer.svelte";
 </script>
 
+<svelte:head>
+  <title>expect(Exception) Episodes</title>
+</svelte:head>
+
 <article class="text-center">
   <Headline1>Episodes</Headline1>
   <Spacer size="md"></Spacer>
