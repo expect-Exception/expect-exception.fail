@@ -87,6 +87,29 @@
       "link": "https://rademacher.digital"
     }
   },
+    {
+    "imageSrc": "mirjam.jpg",
+    "name": "Mirjam Bäuerlein",
+    "bio": "Mirjam is a frontend developer with a very special love for JavaScript. She loves software testing and adores unit test.",
+    "socials": [
+      {
+        "key": "twitter",
+        "link": "https://twitter.com/mirjam_diala"
+      },
+      {
+        "key": "github",
+        "link": "https://github.com/programmiri"
+      },
+      {
+        "key": "gitlab",
+        "link": "https://gitlab.com/programmiri"
+      }
+    ],
+    "website": {
+      "label": "programmiri.rocks",
+      "link": "https://programmiri.rocks"
+    }
+  },
   {
     "imageSrc": "podcast.svg",
     "name": "Amazing Person: You?",
