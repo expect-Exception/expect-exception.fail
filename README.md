@@ -11,11 +11,24 @@ This is a fork of the [Sapper + TailwindCSS Rollup template](https://github.com/
 
 ## Usage
 
-Run the project and the tailwind watcheer in development mode with:
+Run the project and the tailwind watcher in development mode with:
 
 ```bash
 npm run dev
 ```
+
+---
+**NOTE**
+
+`npm run dev` is currently not working consistently. Use
+
+```bash
+npm run build && npm start
+```
+
+instead. This is a bummer for local development (no HMR). For updates check the [issue](https://github.com/sveltejs/sapper/issues/1151).
+
+---
 
 and in another window of the terminal:
 

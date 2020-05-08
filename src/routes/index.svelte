@@ -20,7 +20,7 @@
     label: "Podcast",
     icon: "podcast",
     link: {
-      href: "/episodes",
+      href: "/podcast",
       target: "_self",
       rel: "",
       type: "rss",
@@ -40,8 +40,8 @@
   <Spacer size="md"></Spacer>
   <p>
     expect(Exception) is about Frontend Testing. We are open to discuss every
-    single detail of that opinionated topics. Unit, Integratiom E2E, Snapshot,
-    Visual Regressiong, Tools and Frameworks and so on. There are two platforms:
+    single detail of that opinionated topics. Unit, Integration E2E, Snapshot,
+    Visual Regression, Tools and Frameworks and so on. There are two platforms:
     an open discussion forum for everyone and a podcast. Every episode, some of
     <a href="/about">your hosts</a> talk about specific discussions of the open
     forum.

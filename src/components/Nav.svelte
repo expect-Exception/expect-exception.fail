@@ -73,10 +73,10 @@
     </li>
     <li class="{item}">
       <a
-        class="{segment === 'episodes' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
-        href="/episodes"
+        class="{segment === 'podcast' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
+        href="/podcast"
       >
-        Episodes
+        Podcast
       </a>
     </li>
     <li class="{item}">

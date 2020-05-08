@@ -8,9 +8,9 @@ describe('Navigation', () => {
 		cy.url().should('include', '/about');
 	});
 
-	it('navigates to /episodes', () => {
-		cy.get('nav a').contains('Episodes').click();
-		cy.url().should('include', '/episodes');
+	it('navigates to /podcast', () => {
+		cy.get('nav a').contains('Podcast').click();
+		cy.url().should('include', '/podcast');
 	});
 
 	it('navigates to /sponsorships', () => {
