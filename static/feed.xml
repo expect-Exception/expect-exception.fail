@@ -10,7 +10,7 @@
     <itunes:author>expect(Exception)</itunes:author>
     <itunes:summary>Conversations about Frontend Testing. Every single line of code that is tested is a win for us. Unit, Integration, E2E, Snapshot, Visual Regression. Expect Exceptional Discussions about Frameworks, Tools, Libraries and Techniques. Frontend Testing is such an optionated topic and hosts Vanessa Böhner, Mirjam Bäuerlein, Markus Wolf, David Müllerchen, Nikolaus Rademacher and Roman Kuba will dive deep into it to answer all your... or their questions. The web develops quickly. It's time that the testing evolves with it.</itunes:summary>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://expect-exception.fail/logo-512.png"/>
+    <itunes:image href="https://expect-exception.fail/logo-3000.png"/>
     <itunes:keywords>expect exception, testing, frontend, software, web development, programming, cod,e coding, software engineering</itunes:keywords>
     <itunes:owner>
       <itunes:name>expect(Exception)</itunes:name>
@@ -54,7 +54,7 @@
 </content:encoded>
         <itunes:episodeType>full</itunes:episodeType>
         <itunes:episode>1</itunes:episode>
-        <itunes:image href="https://expect-exception.fail/logo-512.png"/>
+        <itunes:image href="https://expect-exception.fail/logo-3000.png"/>
         <itunes:duration>37:15</itunes:duration>
         <itunes:explicit>no</itunes:explicit>
         <itunes:keywords>expect exception, testing, frontend, software, web development, programming, cod,e coding, software engineering</itunes:keywords>
