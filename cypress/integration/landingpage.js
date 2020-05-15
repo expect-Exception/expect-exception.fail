@@ -12,19 +12,19 @@ describe('Landingpage', () => {
 			cy.visit('/');
 		})
 
-		it('links to episodes when clicking on the headline', () => {
+		it('links to podcast when clicking on the headline', () => {
 			cy.get('section h3 a').contains('Podcast').click();
-			cy.url().should('include', '/episodes');
+			cy.url().should('include', '/podcast');
 		});
 
-		it('links to episodes when clicking on the link', () => {
+		it('links to podcast when clicking on the link', () => {
 			cy.get('section a').contains('Podcast').click();
-			cy.url().should('include', '/episodes');
+			cy.url().should('include', '/podcast');
 		});
 
-		it('links to episodes when clicking on the icon', () => {
+		it('links to podcast when clicking on the icon', () => {
 			cy.get('.fa-podcast').click();
-			cy.url().should('include', '/episodes');
+			cy.url().should('include', '/podcast');
 		});
 	});
 });
