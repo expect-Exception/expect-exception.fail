@@ -52,7 +52,7 @@
     "postcss-load-config": "2.1.0",
     "rollup": "2.16.1",
     "rollup-plugin-babel": "4.4.0",
-    "rollup-plugin-svelte": "5.2.2",
+    "rollup-plugin-svelte": "5.2.3",
     "rollup-plugin-terser": "6.1.0",
     "sapper": "0.27.16",
     "svelte": "3.23.2",
