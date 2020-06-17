@@ -33,7 +33,7 @@
     another hype? They talked about the weak points of the library, too.
   </p>
 
-  <audio controls>
+  <audio class="mx-auto my-2" controls>
     <source
       src="https://vannsl.io/expect-exception/expect-exception-{slug}.mp3"
       type="audio/mpeg" />
