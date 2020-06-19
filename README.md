@@ -8,6 +8,7 @@ This is a fork of the [Sapper + TailwindCSS Rollup template](https://github.com/
 
 1. Make sure you're up and running node v8+ (but just use v12+)
 2. Run `npm install` or `yarn install`
+3. Run `npm run transform` to create the podcasts RSS feed which is the data source for the content of the routes `/podcast` and `/podcast/[slug]`.
 
 ## Usage
 
@@ -17,20 +18,7 @@ Run the project and the tailwind watcher in development mode with:
 npm run dev
 ```
 
----
-**NOTE**
-
-`npm run dev` is currently not working consistently. Use
-
-```bash
-npm run build && npm start
-```
-
-instead. This is a bummer for local development (no HMR). For updates check the [issue](https://github.com/sveltejs/sapper/issues/1151).
-
----
-
-and in another window of the terminal:
+and to rebuild the CSS in another window:
 
 ```bash
 npm run dev:tailwindcss
@@ -57,8 +45,25 @@ now
 
 ## Test
 
-This project contains [Cypress](https://www.cypress.io/) tests. To prevent bloating up the node modules, cypress is not a dev dependency. Install it globally with `npm install -g cypress`. To run the tests, execute
+### Cypress
+
+This project contains [Cypress](https://www.cypress.io/) tests. To run the tests, execute
+
+```bash
+npm run cy
+```
+
+### Jest
+
+This project contains [Jest](https://jestjs.io/) tests. To run the tests, execute
 
 ```bash
 npm run test
+npm run test:watch # watch mode
+npm run test:coverage # coverage mode
 ```
+
+## Troubleshooting
+
+- HMR isn't working? There has been an [issue](https://github.com/sveltejs/sapper/issues/1151] which should be fixed by now. If not, try running `npm run build && nom start` to see changes.
+- Routes `/podcast` and `/podcast/[slug]` are broken or don't show new episodes? (Re)run `npm run transform`. If that get's too complicated, we could add that command to the `npm run dev` command.
