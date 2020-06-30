@@ -1,29 +1,12 @@
-<style>
-  a,
-  a:visited,
-  a:hover,
-  a:active {
-    backface-visibility: hidden;
-    position: relative;
-    transition: 0.5s color ease;
-  }
-  a:hover:after {
-    width: 100%;
-  }
-  a:after {
-    content: "";
-    bottom: -0.5em;
-    left: 0;
-    transition: 0.5s all ease;
-    backface-visibility: hidden;
-    position: absolute;
-    height: 0.125em;
-    width: 0;
-    background: #303f9f;
-  }
-</style>
+<script>
+  import Link from "./Link.svelte";
+</script>
 
-<a href="/podcast" class="text-primary-dark text-lg">
-  <i aria-hidden="true" class="fa fa-arrow-left" />
+<Link href="/podcast" grouped="{true}" color="primary">
+  <i
+    aria-hidden="true"
+    class="fa fa-arrow-left transition-transform transform scale-90
+    group-hover:scale-105 duration-500 ease-in-out"
+  ></i>
   Back to Overview
-</a>
+</Link>

@@ -1,23 +1,62 @@
 <script>
+  import Headline2 from "./Headline2.svelte";
   import Audio from "./Audio.svelte";
+  import LinkedList from "./LinkedList.svelte";
+  import Spacer from "./Spacer.svelte";
 
-  export let id;
-  export let title;
-  export let description;
+  export let episode;
+  const { id, title, description, links, hosts, sponsors } = episode;
 </script>
 
-<section class="border rounded-lg p-5 text-white bg-gradient-dark-to-primary">
-  <h3 class="pb-2 text-center text-xl">
-    #{id}:
-    <strong>
-      <a href="/podcast/{id}" class="cursor-pointer hover:underline">{title}</a>
-    </strong>
-  </h3>
-  <hr />
-  <div class="pt-2 flex justify-between">
-    <div>
-      <p class="my-8">{description}</p>
-      <Audio {id} />
+<section class="px-4 py-8 md:px-16 md:py-12 bg-primary-light rounded-lg">
+  <slot />
+  <Spacer />
+  <p class="my-8">{description}</p>
+  <Audio {id} />
+  <Spacer />
+  {#if links && links.length > 0}
+    <Spacer size="sm" />
+    <Headline2>Links</Headline2>
+    <LinkedList items="{links}" />
+  {/if}
+  {#if hosts && hosts.length > 0}
+    <Spacer size="sm" />
+    <Headline2>Hosts</Headline2>
+    <div class="text-sm">
+      {#each hosts as { name, socials }}
+        <p class="pb-2">
+          {name}
+          {#each socials as { href, label }}
+            {#if label.toLowerCase() !== 'website'}
+              <a
+                {href}
+                target="_blank"
+                rel="nofollow nooponer noreferrer"
+                aria-label="{`${name} ${label} Account`}"
+              >
+                <i
+                  aria-hidden="true"
+                  class="fa fa-{label.toLowerCase()} ml-3 text-lg text-link"
+                ></i>
+              </a>
+            {:else}
+              <a
+                {href}
+                target="_blank"
+                rel="nofollow nooponer noreferrer"
+                class="ml-3 text-link"
+              >
+                www
+              </a>
+            {/if}
+          {/each}
+        </p>
+      {/each}
     </div>
-  </div>
+  {/if}
+  {#if sponsors && sponsors.length > 0}
+    <Spacer size="sm" />
+    <Headline2>Sponsors</Headline2>
+    <LinkedList items="{sponsors}" />
+  {/if}
 </section>

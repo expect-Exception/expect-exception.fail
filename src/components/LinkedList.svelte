@@ -9,7 +9,8 @@
         {href}
         target="_blank"
         rel="nofollow nooponer noreferrer"
-        class="underline hover:text-primary-dark">
+        class="underline text-link font-bold"
+      >
         {label}
       </a>
       {#if detail}- {detail}{/if}
