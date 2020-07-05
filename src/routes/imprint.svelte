@@ -13,23 +13,23 @@
   <header>
     <Headline1>Imprint</Headline1>
   </header>
-  <Spacer size="md"></Spacer>
+  <Spacer size="md" />
   <section>
     <Headline2>Angaben gemäß § 5 TMG</Headline2>
     <p>
-      Vanessa Böhner<br />
-      Egilbertstr. 13<br />
+      Vanessa Böhner
+      <br />
+      Egilbertstr. 13
+      <br />
       85354 Freising
     </p>
   </section>
-  <Spacer size="md"></Spacer>
+  <Spacer size="md" />
   <section>
     <Headline2>Kontakt</Headline2>
-    <p>
-      E-Mail: mail@expect-exception.fail
-    </p>
+    <p>E-Mail: mail@vannsl.io</p>
   </section>
-  <Spacer size="md"></Spacer>
+  <Spacer size="md" />
   <section>
     <Headline2>Haftung für Inhalte</Headline2>
     <p>
@@ -41,7 +41,7 @@
       hinweisen.
     </p>
   </section>
-  <Spacer size="md"></Spacer>
+  <Spacer size="md" />
   <section>
     <Headline2>Haftung für Inhalte</Headline2>
     <p>
@@ -59,7 +59,7 @@
       Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
     </p>
   </section>
-  <Spacer size="md"></Spacer>
+  <Spacer size="md" />
   <section>
     <Headline2>Haftung für Links</Headline2>
     <p>
@@ -78,7 +78,7 @@
       entfernen.
     </p>
   </section>
-  <Spacer size="md"></Spacer>
+  <Spacer size="md" />
   <section>
     <Headline2>Urheberrecht</Headline2>
     <p>
@@ -98,7 +98,7 @@
       wir derartige Inhalte umgehend entfernen.
     </p>
   </section>
-  <Spacer size="md"></Spacer>
+  <Spacer size="md" />
   <section>
     <Headline2>Illustrationen</Headline2>
     <p>
@@ -107,8 +107,9 @@
         href="https://undraw.co"
         rel="nofollow, noreferrer, noopener"
         target="_blank"
-        >unDraw.io</a
       >
+        unDraw.io
+      </a>
     </p>
   </section>
 </article>

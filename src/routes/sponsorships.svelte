@@ -12,25 +12,25 @@
 </svelte:head>
 
 <article in:fadeIn out:fadeOut class="container mx-auto px-2">
-  <Headline1 center={true}>Our Sponsorhips</Headline1>
+  <Headline1 center="{true}">Our Sponsorhips</Headline1>
 
   <Spacer size="md" />
 
   <section>
-    <Headline2 center={true}>Contact Us</Headline2>
+    <Headline2 center="{true}">Contact Us</Headline2>
     <Spacer />
     <p class="max-w-xl mx-auto">
       You have feedback, ideas or want to get in touch? Feel free to contact us.
       You can do that either by sending us a DM on Twitter
       <!-- TODO -->
-      or an email to mail@expect-exception.fail.
+      or an email to mail@vannsl.io.
     </p>
   </section>
 
   <Spacer size="sm" />
 
   <section>
-    <Headline2 center={true}>Sponsorships</Headline2>
+    <Headline2 center="{true}">Sponsorships</Headline2>
     <Spacer />
     <p class="max-w-xl mx-auto">
       Hi! We're Vanessa Böhner, Markus Wolf, Mirjam Bäuerlein, Roman Kuba, David

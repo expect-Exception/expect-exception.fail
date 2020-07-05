@@ -11,9 +11,7 @@
   Made by
   <a href="https://vannsl.io" class="{footerLinkClasses}">Vannsl</a>
   -
-  <a href="mailto:mail@expect-exception.fail" class="{footerLinkClasses}">
-    mail@expect-exception.fail
-  </a>
+  <a href="mailto:mail@vannsl.io" class="{footerLinkClasses}">mail@vannsl.io</a>
   <br />
   <a href="/imprint" class="{footerLinkClasses}">Imprint</a>
 </p>
