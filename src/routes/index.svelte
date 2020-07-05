@@ -12,8 +12,8 @@
       href: "https://github.com/expect-Exception/expect-exception/issues",
       target: "_blank",
       rel: "nooponer noreferrer nofollow",
-      type: "external-link",
-    },
+      type: "external-link"
+    }
   };
 
   const podcast = {
@@ -23,8 +23,8 @@
       href: "/podcast",
       target: "_self",
       rel: "",
-      type: "rss",
-    },
+      type: "rss"
+    }
   };
 </script>
 
@@ -48,21 +48,22 @@
     talk about specific discussions of the open forum.
   </p>
   <Spacer size="md" />
-  <Card item={github}>
+  <Card item="{github}">
     You have questions or opinions about Frontend Testing? If you want to get
     involved, share thoughts, ask questions, give your opinion, join the
     <a
-      href={github.link.href}
-      target={github.link.target}
-      rel={github.link.rel}>
+      href="{github.link.href}"
+      target="{github.link.target}"
+      rel="{github.link.rel}"
+    >
       Github Repository of expect(Exception)
     </a>
     . Each issue represents one topic to talk about.
   </Card>
   <Spacer size="sm" />
-  <Card item={podcast}>
+  <Card item="{podcast}">
     Based on the Threads of the Github Issue Tracker, the
-    <a href="/about" class="hover:underline">expect(Exception) hosts</a>
-    pick topics to discuss on. The first episode is currently in planning.
+    <a href="/about" class="underline">expect(Exception) hosts</a>
+    pick topics to discuss on. Enjoy listening!
   </Card>
 </article>
