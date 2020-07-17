@@ -19,9 +19,7 @@
     "cy": "run-p --race dev cy:run",
     "test": "jest src",
     "test:watch": "npm run test -- --watch",
-    "test:coverage": "jest --coverage",
-    "lint": "prettier --check 'src/**/*.{html,js,svelte}'",
-    "lint:fix": "prettier --write 'src/**/*.{html,js,svelte}'"
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "2.3.0",
