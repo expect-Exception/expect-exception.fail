@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "title": "Cypress: E2E Testing",
+    "time": "1589576400",
+    "length": "22358607",
+    "duration": "37:15",
+    "keywords": "expect exception, testing, frontend, software, web development, programming, code, coding, software engineering",
+    "subtitle": "Every line of code that is tested is a win for us.",
+    "description": "Dave, Mirjam and Vanessa had a closer look at the E2E testing tool Cypress (Cypress.io). First, they clarified what E2E Testing is and which role those tests play in the Testing Pyramid. They discussed the pain points other End To End Testing Suites like Selenium. But is Cypress the perfect newcomer on the market or is it just another hype? They talked about the weak points of the library, too.",
+    "links": [
+      {
+        "label": "Cypress",
+        "href": "https://www.cypress.io/"
+      },
+      {
+        "label": "e2e Testing with Cypress.io | Blog Post by David Müllerchen",
+        "href": "https://webdave.de/blog/cypress"
+      },
+      {
+        "label": "expect(Exception) Issue Tracker",
+        "href": "https://github.com/expect-Exception/expect-exception/issues"
+      },
+      {
+        "label": "expect(Exception) Website",
+        "href": "https://www.expect-exception.fail/"
+      }
+    ],
+    "hosts": [
+      {
+        "name": "Vanessa Böhner",
+        "socials": [
+          {
+            "label": "Twitter",
+            "href": "https://twitter.com/vannsl"
+          },
+          {
+            "label": "GitHub",
+            "href": "https://github.com/vannsl"
+          },
+          {
+            "label": "Website",
+            "href": "https://vannsl.io/"
+          }
+        ]
+      },
+      {
+        "name": "Mirjam Bäuerlein",
+        "socials": [
+          {
+            "label": "Twitter",
+            "href": "https://twitter.com/mirjam_diala"
+          },
+          {
+            "label": "GitHub",
+            "href": "https://github.com/programmiri"
+          },
+          {
+            "label": "Website",
+            "href": "https://programmiri.rocks"
+          }
+        ]
+      },
+      {
+        "name": "David Müllerchen",
+        "socials": [
+          {
+            "label": "Twitter",
+            "href": "https://twitter.com/webdave_de"
+          },
+          {
+            "label": "GitHub",
+            "href": "https://github.com/web-dave"
+          },
+          {
+            "label": "Website",
+            "href": "https://webdave.de"
+          }
+        ]
+      }
+    ],
+    "sponsors": [
+      {
+        "href": "https://webdave.de",
+        "label": "Webdave",
+        "detail": "Domain Sponsor"
+      }
+    ]
+  }
+]

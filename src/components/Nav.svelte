@@ -1,40 +1,16 @@
-<script>
-  export let segment;
-
-  const item = "block text-center sm:float-left";
-  const anchor =
-    "relative inline-block pt-4 pb-2 px-2 text-primary-text hover:text-primary hover:cursor-pointer";
-</script>
-
 <style lang="scss">
-  .highlighted {
-    position: absolute;
-    content: "";
-    width: calc(100% - 1em);
-    background-color: #000;
-    height: 3px;
-    display: block;
-    bottom: -1px;
-  }
-
-  .selected::after {
-    @extend .highlighted;
-    background-color: #3f51b5;
-  }
-
-  .anchor::after {
-    @extend .highlighted;
-  }
-
-  .anchor:hover::after {
-    @extend .highlighted;
-    background-color: #3f51b5;
-  }
-
   .logo {
     max-width: 300px;
   }
 </style>
+
+<script>
+  import Link from "./Link.svelte";
+  export let segment;
+
+  const item = "block text-center sm:float-left";
+  const anchor = "relative inline-block pt-4 pb-2 px-2 hover:cursor-pointer";
+</script>
 
 <nav class="p-4 flex flex-wrap justify-center md:justify-between bg-white">
   <div class="w-full md:w-auto mb-8 md:mb-0">
@@ -55,37 +31,21 @@
     </div>
   </div>
   <ul class="m-0 p-0 clearfix text-xl md:text-base">
-    <li class="{item}">
-      <a
-        class="{segment === undefined ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
-        href="."
-      >
-        Home
-      </a>
+    <li class="{item} {anchor}">
+      <Link href="." selected="{segment === undefined}">Home</Link>
     </li>
-    <li class="{item}">
-      <a
-        class="{segment === 'about' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
-        href="/about"
-      >
+    <li class="{item} {anchor}">
+      <Link href="/about" selected="{segment === 'about'}">
         Exceptional Crew
-      </a>
+      </Link>
     </li>
-    <li class="{item}">
-      <a
-        class="{segment === 'podcast' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
-        href="/podcast"
-      >
-        Podcast
-      </a>
+    <li class="{item} {anchor}">
+      <Link href="/podcast" selected="{segment === 'podcast'}">Podcast</Link>
     </li>
-    <li class="{item}">
-      <a
-        class="{segment === 'sponsorships' ? `${anchor} selected text-primary` : `${anchor} text-primary-text`}"
-        href="/sponsorships"
-      >
+    <li class="{item} {anchor}">
+      <Link href="/sponsorships" selected="{segment === 'sponsorships'}">
         Sponsorships
-      </a>
+      </Link>
     </li>
   </ul>
 </nav>

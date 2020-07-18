@@ -14,24 +14,24 @@
 <article in:fadeIn out:fadeOut class="container mx-auto px-2">
   <Headline1 center="{true}">Our Sponsorhips</Headline1>
 
-  <Spacer size="md"></Spacer>
+  <Spacer size="md" />
 
   <section>
     <Headline2 center="{true}">Contact Us</Headline2>
-    <Spacer></Spacer>
+    <Spacer />
     <p class="max-w-xl mx-auto">
       You have feedback, ideas or want to get in touch? Feel free to contact us.
       You can do that either by sending us a DM on Twitter
       <!-- TODO -->
-      or an email to mail@expect-exception.fail.
+      or an email to mail@vannsl.io.
     </p>
   </section>
 
-  <Spacer size="sm"></Spacer>
+  <Spacer size="sm" />
 
   <section>
     <Headline2 center="{true}">Sponsorships</Headline2>
-    <Spacer></Spacer>
+    <Spacer />
     <p class="max-w-xl mx-auto">
       Hi! We're Vanessa Böhner, Markus Wolf, Mirjam Bäuerlein, Roman Kuba, David
       Müllerchen and Nikolaus Rademacher - six frontend developers from all over
@@ -41,10 +41,10 @@
       running.
     </p>
 
-    <Spacer size="lg"></Spacer>
+    <Spacer size="lg" />
 
     {#each sponsorships as sponsorship}
-    <Sponsorship {sponsorship}></Sponsorship>
+      <Sponsorship {sponsorship} />
     {/each}
   </section>
 </article>

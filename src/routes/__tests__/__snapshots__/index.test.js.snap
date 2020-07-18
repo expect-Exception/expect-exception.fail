@@ -28,16 +28,19 @@ exports[`index component should render component correctly 1`] = `
       />
        
       <p>
-        expect(Exception) is about Frontend Testing. We are open to discuss every single detail of that opinionated topics.
-		Unit, Integratiom E2E, Snapshot, Visual Regressiong, Tools and Frameworks and so on.
-		There are two platforms: an open discussion forum for everyone and a podcast.
-		Every episode, some of 
+        expect(Exception) is about Frontend Testing. We are open to discuss every
+    single detail of thaewewrt opinionated topics. Unit, Integration E2E,
+    Snapshot, Visual Regression, Tools and Frameworks and so on. There are two
+    platforms: an open discussion forum for everyone and a podcast. Every
+    episode, some of
+    
         <a
           href="/about"
         >
           your hosts
         </a>
-         talk about specific discussions of the open forum.
+        
+    talk about specific discussions of the open forum.
       </p>
        
       <div
@@ -69,9 +72,9 @@ exports[`index component should render component correctly 1`] = `
             <p
               class="my-4"
             >
-              You have questions or opinions about Frontend Testing?
-		If you want to get involved, share thoughts, ask questions, give your opinion,
-		join the 
+              You have questions or opinions about Frontend Testing? If you want to get
+    involved, share thoughts, ask questions, give your opinion, join the
+    
               <a
                 href="https://github.com/expect-Exception/expect-exception/issues"
                 rel="nooponer noreferrer nofollow"
@@ -79,8 +82,8 @@ exports[`index component should render component correctly 1`] = `
               >
                 Github Repository of expect(Exception)
               </a>
-              .
-		Each issue represents one topic to talk about.
+              
+    . Each issue represents one topic to talk about.
             </p>
              
             <a
@@ -92,6 +95,7 @@ exports[`index component should render component correctly 1`] = `
               <span
                 class="fa fa-external-link inline-block mr-2"
               />
+               
               Github Issue Tracker
             </a>
           </div>
@@ -107,7 +111,8 @@ exports[`index component should render component correctly 1`] = `
             >
               <i
                 aria-hidden="true"
-                class="fa fa-github text-5xl transition transform hover:scale-125 ease-out duration-700"
+                class="fa fa-github text-5xl transition transform hover:scale-125
+          ease-out duration-700"
               />
             </a>
           </div>
@@ -126,7 +131,7 @@ exports[`index component should render component correctly 1`] = `
         >
           <a
             class="cursor-pointer hover:underline"
-            href="/episodes"
+            href="/podcast"
             rel=""
             target="_self"
           >
@@ -143,25 +148,28 @@ exports[`index component should render component correctly 1`] = `
             <p
               class="my-4"
             >
-              Based on the Threads of the Github Issue Tracker, the 
+              Based on the Threads of the Github Issue Tracker, the
+    
               <a
                 class="hover:underline"
                 href="/about"
               >
                 expect(Exception) hosts
               </a>
-               pick topics to discuss on. The first episode is currently in planning.
+              
+    pick topics to discuss on. The first episode is currently in planning.
             </p>
              
             <a
               class="hover:underline"
-              href="/episodes"
+              href="/podcast"
               rel=""
               target="_self"
             >
               <span
                 class="fa fa-rss inline-block mr-2"
               />
+               
               Podcast
             </a>
           </div>
@@ -171,13 +179,14 @@ exports[`index component should render component correctly 1`] = `
           >
             <a
               aria-label="Podcast"
-              href="/episodes"
+              href="/podcast"
               rel=""
               target="_self"
             >
               <i
                 aria-hidden="true"
-                class="fa fa-podcast text-5xl transition transform hover:scale-125 ease-out duration-700"
+                class="fa fa-podcast text-5xl transition transform hover:scale-125
+          ease-out duration-700"
               />
             </a>
           </div>

@@ -3,5 +3,5 @@
 </script>
 
 <h2 class="text-lg sm:text-xl" class:text-center="{center}">
-  <slot></slot>
+  <slot />
 </h2>
