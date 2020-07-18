@@ -46,20 +46,22 @@ module.exports = (
       }${
         item.hosts && item.hosts.length > 0
           ? "<p>Hosts</p><ul>" +
-            item.hosts.map(
-              (host) =>
-                `<li>${host.name}` +
-                host.socials
-                  .map(
-                    (social, index) =>
-                      `
+            item.hosts
+              .map(
+                (host) =>
+                  `<li>${host.name}` +
+                  host.socials
+                    .map(
+                      (social, index) =>
+                        `
                       ${index === 0 ? " &ndash; " : ""}<a href="${
-                        social.href
-                      }">${social.label}</a>`
-                  )
-                  .join(", ") +
-                "</li>"
-            ) +
+                          social.href
+                        }">${social.label}</a>`
+                    )
+                    .join(",") +
+                  "</li>"
+              )
+              .join("") +
             "</ul>"
           : ""
       }${
