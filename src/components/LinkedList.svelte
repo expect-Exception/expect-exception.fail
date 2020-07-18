@@ -3,8 +3,9 @@
 </script>
 
 <ul class="text-sm">
-  {#each items as { href, label, detail }}
+  {#each items as { href, prefix, label, detail }}
     <li class="pt-2">
+      {#if prefix}{prefix}:{/if}
       <a
         {href}
         target="_blank"
