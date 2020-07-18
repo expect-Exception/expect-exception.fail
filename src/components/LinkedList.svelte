@@ -9,7 +9,7 @@
       <a
         {href}
         target="_blank"
-        rel="nofollow nooponer noreferrer"
+        rel="nofollow noopener"
         class="underline text-link font-bold"
       >
         {label}

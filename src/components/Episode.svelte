@@ -36,7 +36,7 @@
               <a
                 {href}
                 target="_blank"
-                rel="nofollow nooponer noreferrer"
+                rel="noopener nofollow"
                 aria-label="{`${name} ${label} Account`}"
               >
                 <i
@@ -48,7 +48,7 @@
               <a
                 {href}
                 target="_blank"
-                rel="nofollow nooponer noreferrer"
+                rel="noopener nofollow"
                 class="ml-3 text-link"
               >
                 www
