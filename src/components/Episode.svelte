@@ -27,7 +27,7 @@
         <p class="pb-2">
           {name}
           {#each socials as { href, label }}
-            {#if label.toLowerCase() !== 'website'}
+            {#if ['github', 'twitter'].includes(label.toLowerCase())}
               <a
                 {href}
                 target="_blank"

@@ -39,7 +39,7 @@
             "href": "https://github.com/vannsl"
           },
           {
-            "label": "Website",
+            "label": "vannsl.io",
             "href": "https://vannsl.io/"
           }
         ]
@@ -56,7 +56,7 @@
             "href": "https://github.com/programmiri"
           },
           {
-            "label": "Website",
+            "label": "programmiri.rocks",
             "href": "https://programmiri.rocks"
           }
         ]
@@ -73,8 +73,113 @@
             "href": "https://github.com/web-dave"
           },
           {
-            "label": "Website",
+            "label": "webdave.de",
             "href": "https://webdave.de"
+          }
+        ]
+      }
+    ],
+    "sponsors": [
+      {
+        "href": "https://webdave.de",
+        "label": "Webdave",
+        "detail": "Domain Sponsor"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Testing Components (SFC)",
+    "time": "1595224800",
+    "length": "33606137",
+    "duration": "56:00",
+    "keywords": "expect exception, testing, frontend, software, web development, programming, code, coding, software engineering",
+    "subtitle": "What are the best practices when testing single file components?",
+    "description": "In this episode, Mirjam Bäuerlein, Roman Kuba, and Vanessa Böhner talked about how to test Single File Components (SFC). They discussed when they 'shallowMount' and 'mount' components, and when they mock or don't mock API requests, stores, or other dependencies. Roman and Mirjam tell stories about performance issues, whereas Vanessa never experiences those problems working on a micro-frontend bases project in the last couple of months. On the contrary, she and her teams needed strict rules about what exactly one component or one unit is.",
+    "links": [
+      {
+        "label": "Service Worker Mock",
+        "href": "https://www.npmjs.com/package/service-worker-mock"
+      },
+      {
+        "label": "Learn Vue.js Component Testing",
+        "href": "https://vueschool.io/courses/learn-how-to-test-vuejs-components"
+      },
+      {
+        "label": "Testing Library",
+        "href": "https://testing-library.com/"
+      },
+      {
+        "label": "Vue Test Utils",
+        "href": "https://vue-test-utils.vuejs.org/"
+      }
+    ],
+    "picks": [
+      {
+        "prefix": "Mirjam",
+        "label": "Foundation — Teaser | Apple TV+",
+        "href": "https://www.youtube.com/watch?v=xgbPSA94Rqg"
+      },
+      {
+        "prefix": "Roman",
+        "label": "Happy Hues - Premade matching color combinations",
+        "href": "https://www.happyhues.co"
+      },
+      {
+        "prefix": "Vanessa",
+        "label": "Last of Us Part II: Is this the most accessible game ever?",
+        "href": "https://www.bbc.com/news/technology-53093613"
+      }
+    ],
+    "hosts": [
+      {
+        "name": "Vanessa Böhner",
+        "socials": [
+          {
+            "label": "Twitter",
+            "href": "https://twitter.com/vannsl"
+          },
+          {
+            "label": "GitHub",
+            "href": "https://github.com/vannsl"
+          },
+          {
+            "label": "vannsl.io",
+            "href": "https://vannsl.io/"
+          }
+        ]
+      },
+      {
+        "name": "Mirjam Bäuerlein",
+        "socials": [
+          {
+            "label": "Twitter",
+            "href": "https://twitter.com/mirjam_diala"
+          },
+          {
+            "label": "GitHub",
+            "href": "https://github.com/programmiri"
+          },
+          {
+            "label": "programmiri.rocks",
+            "href": "https://programmiri.rocks"
+          }
+        ]
+      },
+      {
+        "name": "Roman Kuba",
+        "socials": [
+          {
+            "label": "Twitter",
+            "href": "https://twitter.com/codebryo"
+          },
+          {
+            "label": "GitHub",
+            "href": "https://github.com/codebryo"
+          },
+          {
+            "label": "codebryo.com",
+            "href": "https://codebryo.com"
           }
         ]
       }

@@ -12,18 +12,8 @@ describe("Landingpage", () => {
       cy.visit("/");
     });
 
-    it("links to podcast when clicking on the headline", () => {
-      cy.get("section h3 a").contains("Podcast").click();
-      cy.url().should("include", "/podcast");
-    });
-
-    it("links to podcast when clicking on the link", () => {
-      cy.get("section a").contains("Podcast").click();
-      cy.url().should("include", "/podcast");
-    });
-
-    it("links to podcast when clicking on the icon", () => {
-      cy.get(".fa-podcast").click();
+    it("links to podcast when clicking on the card", () => {
+      cy.get("section h3").contains("Podcast").click();
       cy.url().should("include", "/podcast");
     });
   });
