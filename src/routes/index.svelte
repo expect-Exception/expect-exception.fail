@@ -11,7 +11,7 @@
     link: {
       href: "https://github.com/expect-Exception/expect-exception/issues",
       target: "_blank",
-      rel: "nooponer noreferrer nofollow",
+      rel: "noopener noreferrer",
       type: "external-link"
     }
   };

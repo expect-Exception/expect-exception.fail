@@ -47,151 +47,141 @@ exports[`index component should render component correctly 1`] = `
         class="w-full h-16"
       />
        
-      <section
-        class="border rounded-lg p-5 text-white bg-gradient-dark-to-primary"
+      <a
+        aria-label="Github Issue Tracker"
+        href="https://github.com/expect-Exception/expect-exception/issues"
+        rel="noopener noreferrer"
+        target="_blank"
       >
-        <h3
-          class="pb-2 text-center text-xl"
+        <section
+          class="group cursor-pointer border rounded-lg p-5 text-white
+    bg-gradient-dark-to-primary transition transform hover:scale-105
+    duration-500 ease-in-out"
         >
-          <a
-            class="cursor-pointer hover:underline"
-            href="https://github.com/expect-Exception/expect-exception/issues"
-            rel="nooponer noreferrer nofollow"
-            target="_blank"
+          <h3
+            class="pb-2 text-center text-xl"
           >
             Github Issue Tracker
-          </a>
-        </h3>
-         
-        <hr />
-         
-        <div
-          class="pt-2 flex justify-between"
-        >
-          <div>
-            <p
-              class="my-4"
-            >
-              You have questions or opinions about Frontend Testing? If you want to get
-    involved, share thoughts, ask questions, give your opinion, join the
-    
-              <a
-                href="https://github.com/expect-Exception/expect-exception/issues"
-                rel="nooponer noreferrer nofollow"
-                target="_blank"
-              >
-                Github Repository of expect(Exception)
-              </a>
-              
-    . Each issue represents one topic to talk about.
-            </p>
-             
-            <a
-              class="hover:underline"
-              href="https://github.com/expect-Exception/expect-exception/issues"
-              rel="nooponer noreferrer nofollow"
-              target="_blank"
-            >
-              <span
-                class="fa fa-external-link inline-block mr-2"
-              />
-               
-              Github Issue Tracker
-            </a>
-          </div>
+          </h3>
+           
+          <hr />
            
           <div
-            class="ml-8 flex flex-col justify-center"
+            class="pt-2 flex justify-between"
           >
-            <a
-              aria-label="Github Issue Tracker"
-              href="https://github.com/expect-Exception/expect-exception/issues"
-              rel="nooponer noreferrer nofollow"
-              target="_blank"
+            <div>
+              <p
+                class="my-4"
+              >
+                You have questions or opinions about Frontend Testing? If you want to get
+    involved, share thoughts, ask questions, give your opinion, join the
+    
+                <a
+                  href="https://github.com/expect-Exception/expect-exception/issues"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Github Repository of expect(Exception)
+                </a>
+                
+    . Each issue represents one topic to talk about.
+              </p>
+               
+              <a
+                href="https://github.com/expect-Exception/expect-exception/issues"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Github Issue Tracker
+                 
+                <span
+                  class="opacity-0 group-hover:opacity-100 transition-opacity
+            duration-500 ease-in-out fa fa-external-link inline-block ml-2"
+                />
+              </a>
+            </div>
+             
+            <div
+              class="ml-8 flex flex-col justify-center"
             >
               <i
                 aria-hidden="true"
                 class="fa fa-github text-5xl transition transform hover:scale-125
           ease-out duration-700"
               />
-            </a>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </a>
        
       <div
         class="w-full h-8"
       />
        
-      <section
-        class="border rounded-lg p-5 text-white bg-gradient-dark-to-primary"
+      <a
+        aria-label="Podcast"
+        href="/podcast"
+        rel=""
+        target="_self"
       >
-        <h3
-          class="pb-2 text-center text-xl"
+        <section
+          class="group cursor-pointer border rounded-lg p-5 text-white
+    bg-gradient-dark-to-primary transition transform hover:scale-105
+    duration-500 ease-in-out"
         >
-          <a
-            class="cursor-pointer hover:underline"
-            href="/podcast"
-            rel=""
-            target="_self"
+          <h3
+            class="pb-2 text-center text-xl"
           >
             Podcast
-          </a>
-        </h3>
-         
-        <hr />
-         
-        <div
-          class="pt-2 flex justify-between"
-        >
-          <div>
-            <p
-              class="my-4"
-            >
-              Based on the Threads of the Github Issue Tracker, the
-    
-              <a
-                class="hover:underline"
-                href="/about"
-              >
-                expect(Exception) hosts
-              </a>
-              
-    pick topics to discuss on. The first episode is currently in planning.
-            </p>
-             
-            <a
-              class="hover:underline"
-              href="/podcast"
-              rel=""
-              target="_self"
-            >
-              <span
-                class="fa fa-rss inline-block mr-2"
-              />
-               
-              Podcast
-            </a>
-          </div>
+          </h3>
+           
+          <hr />
            
           <div
-            class="ml-8 flex flex-col justify-center"
+            class="pt-2 flex justify-between"
           >
-            <a
-              aria-label="Podcast"
-              href="/podcast"
-              rel=""
-              target="_self"
+            <div>
+              <p
+                class="my-4"
+              >
+                Based on the Threads of the Github Issue Tracker, the
+    
+                <a
+                  class="underline"
+                  href="/about"
+                >
+                  expect(Exception) hosts
+                </a>
+                
+    pick topics to discuss on. Enjoy listening!
+              </p>
+               
+              <a
+                href="/podcast"
+                rel=""
+                target="_self"
+              >
+                Podcast
+                 
+                <span
+                  class="opacity-0 group-hover:opacity-100 transition-opacity
+            duration-500 ease-in-out fa fa-rss inline-block ml-2"
+                />
+              </a>
+            </div>
+             
+            <div
+              class="ml-8 flex flex-col justify-center"
             >
               <i
                 aria-hidden="true"
                 class="fa fa-podcast text-5xl transition transform hover:scale-125
           ease-out duration-700"
               />
-            </a>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </a>
     </article>
   </div>
 </body>

@@ -5,7 +5,7 @@
   import Spacer from "./Spacer.svelte";
 
   export let episode;
-  const { id, title, description, links, hosts, sponsors } = episode;
+  const { id, title, description, links, picks, hosts, sponsors } = episode;
 </script>
 
 <section class="px-4 py-8 md:px-16 md:py-12 bg-primary-light rounded-lg">
@@ -19,6 +19,11 @@
     <Headline2>Links</Headline2>
     <LinkedList items="{links}" />
   {/if}
+  {#if picks && picks.length > 0}
+    <Spacer size="sm" />
+    <Headline2>Picks</Headline2>
+    <LinkedList items="{picks}" />
+  {/if}
   {#if hosts && hosts.length > 0}
     <Spacer size="sm" />
     <Headline2>Hosts</Headline2>
@@ -27,11 +32,11 @@
         <p class="pb-2">
           {name}
           {#each socials as { href, label }}
-            {#if label.toLowerCase() !== 'website'}
+            {#if ['github', 'twitter'].includes(label.toLowerCase())}
               <a
                 {href}
                 target="_blank"
-                rel="nofollow nooponer noreferrer"
+                rel="noopener nofollow"
                 aria-label="{`${name} ${label} Account`}"
               >
                 <i
@@ -43,7 +48,7 @@
               <a
                 {href}
                 target="_blank"
-                rel="nofollow nooponer noreferrer"
+                rel="noopener nofollow"
                 class="ml-3 text-link"
               >
                 www
