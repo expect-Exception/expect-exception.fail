@@ -89,13 +89,13 @@
   },
   {
     "id": "2",
-    "title": "Testing Components (SFC)",
+    "title": "Testing UI Components",
     "time": "1595224800",
     "length": "33606137",
     "duration": "56:00",
     "keywords": "expect exception, testing, frontend, software, web development, programming, code, coding, software engineering",
     "subtitle": "What are the best practices when testing ui components?",
-    "description": "In this episode, Mirjam Bäuerlein, Roman Kuba, and Vanessa Böhner talked about how to test UI Components like Vue, React or Svelte commponents. They discussed when they 'shallowMount' and 'mount' components, and when they mock or don't mock API requests, stores, or other dependencies. Roman and Mirjam tell stories about performance issues, whereas Vanessa never experiences those problems working on a micro-frontend bases project in the last couple of months. On the contrary, she and her teams needed strict rules about what exactly one component or one unit is.",
+    "description": "In this episode, Mirjam Bäuerlein, Roman Kuba, and Vanessa Böhner talked about how to test UI Components like Vue, React or Svelte components. They discussed when they 'shallowMount' and 'mount' components, and when they mock or don't mock API requests, stores, or other dependencies. Roman and Mirjam tell stories about performance issues, whereas Vanessa never experiences those problems working on a micro-frontend bases project in the last couple of months. On the contrary, she and her teams needed strict rules about what exactly one component or one unit is.",
     "links": [
       {
         "label": "Service Worker Mock",
