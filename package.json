@@ -42,7 +42,7 @@
     "autoprefixer": "9.8.5",
     "babel-jest": "26.1.0",
     "cssnano": "4.1.10",
-    "cypress": "4.10.0",
+    "cypress": "4.11.0",
     "jest": "26.1.0",
     "jest-transform-svelte": "2.1.1",
     "lodash": "4.17.19",
