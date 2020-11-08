@@ -1,6 +1,10 @@
 const _ = require("lodash");
 
 module.exports = {
+  future: {
+    purgeLayersByDefault: true,
+    removeDeprecatedGapUtilities: true,
+  },
   variants: {
     scale: ["hover", "group-hover"],
     opacity: ["group-hover"],
