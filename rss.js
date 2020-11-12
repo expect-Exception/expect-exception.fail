@@ -9,7 +9,6 @@ module.exports = (
   <title>${name}</title>
   <copyright>All rights reserved</copyright>
   <link>https://expect-exception.fail/podcast</link>
-  <atom:link href="https://anchor.fm/s/3f33329c/podcast/rss" rel="next" type="application/rss+xml"/>
   <atom:link href="https://expect-exception.fail/podcast" rel="alternate" type="text/html"/>
   <language>en-us</language>
   <description>${summary}</description>

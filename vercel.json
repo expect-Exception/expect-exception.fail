@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/feed.xml", "destination": "https://g8qwn1.podcaster.de/expect-exception.rss" }
+  ]
+}
