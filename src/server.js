@@ -1,6 +1,6 @@
 import sirv from "sirv";
 import polka from "polka";
-import redirect from("@polka/redirect");
+import redirect from "@polka/redirect";
 import compression from "compression";
 import * as sapper from "@sapper/server";
 
