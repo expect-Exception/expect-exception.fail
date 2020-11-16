@@ -35,7 +35,6 @@
   <Spacer mdSize="md" />
   <Episode {episode}>
     <Headline1 center="{true}">
-      #{episode.id}
       <strong>{episode.title}</strong>
     </Headline1>
   </Episode>

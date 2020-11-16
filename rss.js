@@ -78,15 +78,13 @@ module.exports = (
 
       </p>]]></content:encoded>
       <pubDate>${new Date(item.time * 1000).toUTCString()}</pubDate>
-      <enclosure url="https://vannsl.io/expect-exception/expect-exception-${
-        item.id
-      }.mp3" length="${item.length}" type="audio/mpeg"/>
+      <enclosure url="${
+        item.link
+      }" type="audio/mpeg"/>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>${item.id}</itunes:episode>
       <itunes:image href="https://expect-exception.fail/logo-3000.png"/>
-      <itunes:duration>${item.duration}</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
-      <itunes:keywords>${item.keywords}</itunes:keywords>
       <itunes:subtitle>${item.subtitle}</itunes:subtitle>
       <itunes:summary>${item.description}</itunes:summary>
       <dc:creator>${name}</dc:creator>
