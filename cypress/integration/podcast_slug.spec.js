@@ -14,8 +14,8 @@ describe("Podcas Slug", () => {
     });
   });
 
-  it("displays the id and title of the slug episode", () => {
-    cy.contains("h1", `#${episode.id} ${episode.title}`);
+  it("displays the title of the slug episode", () => {
+    cy.contains("h1", episode.title);
   });
 
   it("renders the audio element", () => {
