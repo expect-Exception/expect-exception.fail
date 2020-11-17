@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "3.0.0",
-    "@polka/redirect": "^1.0.0-next.0",
+    "@polka/redirect": "1.0.0-next.0",
     "compression": "1.7.4",
     "polka": "next",
     "sirv": "1.0.7"
