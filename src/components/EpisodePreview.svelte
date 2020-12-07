@@ -4,7 +4,7 @@
 
   export let id;
   export let title;
-  export let description;
+  export let subtitle;
 </script>
 
 <section class="border-4 border-primary rounded-lg p-5 text-dark">
@@ -16,7 +16,7 @@
   <hr class="border border-primary" />
   <div class="pt-2 flex justify-between">
     <div>
-      <p class="my-8">{description}</p>
+      <p class="my-8">{subtitle}</p>
       <Audio {id} />
     </div>
   </div>
