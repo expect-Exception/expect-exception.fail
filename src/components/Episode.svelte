@@ -8,10 +8,17 @@
   const { id, title, description, links, picks, hosts, sponsors } = episode;
 </script>
 
+<style>
+	p {
+    margin-bottom: 2em;
+	}
+</style>
+
+
 <section class="px-4 py-8 md:px-16 md:py-12 bg-primary-light rounded-lg">
   <slot />
   <Spacer />
-  <p class="my-8">{description}</p>
+  <p class="my-8">{@html description}</p>
   <Audio {id} />
   <Spacer />
   {#if links && links.length > 0}
