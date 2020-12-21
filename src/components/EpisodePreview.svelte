@@ -3,6 +3,7 @@
   import Link from "./Link.svelte";
 
   export let id;
+  export let link;
   export let title;
   export let subtitle;
 </script>
@@ -14,10 +15,10 @@
     </strong>
   </h3>
   <hr class="border border-primary" />
-  <div class="pt-2 flex justify-between">
+  <div class="pt-2 flex justify-center">
     <div>
       <p class="my-8">{subtitle}</p>
-      <Audio {id} />
+      <Audio {link} />
     </div>
   </div>
 </section>

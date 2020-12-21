@@ -5,7 +5,7 @@
   import Spacer from "./Spacer.svelte";
 
   export let episode;
-  const { id, title, description, links, picks, hosts, sponsors } = episode;
+  const { id, link, title, description, links, picks, hosts, sponsors } = episode;
 </script>
 
 <style>
@@ -19,7 +19,7 @@
   <slot />
   <Spacer />
   <p class="my-8">{@html description}</p>
-  <Audio {id} />
+  <Audio {link} />
   <Spacer />
   {#if links && links.length > 0}
     <Spacer size="sm" />
