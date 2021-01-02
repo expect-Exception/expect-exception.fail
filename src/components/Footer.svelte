@@ -4,7 +4,7 @@
   const footerLinkClasses = "hover:underline hover:cursor-pointer";
 </script>
 
-&copy; 2020 expect(Exception)
+&copy; 2020 - 2021 expect(Exception)
 <br />
 <Spacer />
 <p>
