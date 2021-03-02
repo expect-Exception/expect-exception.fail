@@ -87,7 +87,7 @@
       "link": "https://rademacher.digital"
     }
   },
-    {
+  {
     "imageSrc": "mirjam.jpg",
     "name": "Mirjam Bäuerlein",
     "bio": "Mirjam is a frontend developer with a very special love for JavaScript. She loves software testing and adores unit test.",
@@ -145,7 +145,6 @@
       {
         "key": "github",
         "link": "https://github.com/tobiastimm"
-      },
       }
     ],
     "website": {
