@@ -134,6 +134,26 @@
     }
   },
   {
+    "imageSrc": "tobi.png",
+    "name": "Tobias Timm",
+    "bio": "Tobi is a Senior Product Engineer at SinnerSchrader, who loves JavaScript, FP principles, music and everything that is awesome!",
+    "socials": [
+      {
+        "key": "twitter",
+        "link": "https://twitter.com/tbstimm"
+      },
+      {
+        "key": "github",
+        "link": "https://github.com/tobiastimm"
+      },
+      }
+    ],
+    "website": {
+      "label": "tobiastimm.dev",
+      "link": "https://tobiastimm.dev"
+    }
+  },
+  {
     "imageSrc": "podcast.svg",
     "name": "Amazing Person: You?",
     "bio": "Write us if you have an idea, want to be a guest speaker or get a member of the crew."
