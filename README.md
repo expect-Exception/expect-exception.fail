@@ -65,5 +65,5 @@ npm run test:coverage # coverage mode
 
 ## Troubleshooting
 
-- HMR isn't working? There has been an [issue](https://github.com/sveltejs/sapper/issues/1151] which should be fixed by now. If not, try running `npm run build && nom start` to see changes.
+- HMR isn't working? There has been an [issue](https://github.com/sveltejs/sapper/issues/1151] which should be fixed by now. If not, try running `npm run build && npm start` to see changes.
 - Routes `/podcast` and `/podcast/[slug]` are broken or don't show new episodes? (Re)run `npm run transform`. If that get's too complicated, we could add that command to the `npm run dev` command.
