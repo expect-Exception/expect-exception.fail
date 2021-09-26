@@ -40,7 +40,7 @@
     "@rollup/plugin-replace": "3.0.0",
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/svelte": "3.0.3",
-    "autoprefixer": "10.3.4",
+    "autoprefixer": "10.3.6",
     "babel-jest": "27.1.1",
     "cssnano": "5.0.8",
     "jest": "27.1.1",
