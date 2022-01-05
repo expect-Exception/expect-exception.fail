@@ -43,7 +43,7 @@
     "autoprefixer": "10.4.1",
     "babel-jest": "27.4.6",
     "cssnano": "5.0.14",
-    "jest": "27.4.6",
+    "jest": "27.4.7",
     "jest-transform-svelte": "2.1.1",
     "lodash": "4.17.21",
     "node-sass": "7.0.1",
