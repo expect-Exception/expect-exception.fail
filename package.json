@@ -42,7 +42,7 @@
     "@testing-library/svelte": "3.0.3",
     "autoprefixer": "10.4.2",
     "babel-jest": "27.5.0",
-    "cssnano": "5.0.16",
+    "cssnano": "5.0.17",
     "jest": "27.5.0",
     "jest-transform-svelte": "2.1.1",
     "lodash": "4.17.21",
